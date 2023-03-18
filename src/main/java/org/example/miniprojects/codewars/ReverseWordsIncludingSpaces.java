@@ -3,10 +3,6 @@ package org.example.miniprojects.codewars;
 import java.util.ArrayList;
 
 public class ReverseWordsIncludingSpaces {
-    public static void main(String[] args) {
-        System.out.println(reverseWords("мама мыла "));
-    }
-
     public static String reverseWords(final String original) {
 
         ArrayList<String> listOfWords = new ArrayList<>();
