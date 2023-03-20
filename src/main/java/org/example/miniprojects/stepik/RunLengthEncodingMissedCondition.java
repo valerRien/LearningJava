@@ -11,23 +11,26 @@ public class RunLengthEncodingMissedCondition {
         String line = scanner.nextLine();
         String result = "";
 
-
-        for (int i = 0; i < line.length(); i++) {
-            if (i + 1 <= line.length() - 1) {
-                int count = 1;
-                while (i + 1 <= line.length() - 1 & line.charAt(i) == line.charAt(i + 1)) {
-                       count++;
-                       i++;
-                }
-                if (count == 1) {
-                    result += String.valueOf(line.charAt(i));
-                } else {
-                    result += count + String.valueOf(line.charAt(i));
+        if (line.length() > 1) {
+            for (int i = 0; i < line.length(); i++) {
+                if (i + 1 <= line.length() - 1) {
+                    int count = 1;
+                    while (i + 1 <= line.length() - 1 && line.charAt(i) == line.charAt(i + 1)) {
+                        count++;
+                        i++;
+                    }
+                    if (count == 1) {
+                        result += String.valueOf(line.charAt(i));
+                    } else {
+                        result += count + String.valueOf(line.charAt(i));
+                    }
                 }
             }
-        }
-        if (line.charAt(line.length() - 1) != line.charAt(line.length() - 2)) {
-            result += String.valueOf(line.charAt(line.length() - 1));
+            if (line.charAt(line.length() - 1) != line.charAt(line.length() - 2)) {
+                result += String.valueOf(line.charAt(line.length() - 1));
+            }
+        } else {
+            result += line;
         }
         System.out.println(result);
     }
