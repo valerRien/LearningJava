@@ -3,7 +3,7 @@ package org.example.miniprojects.leetcode;
 import java.util.Arrays;
 
 public class MissingNumber {
-    public int missingNumber(int[] nums) {
+    public static int missingNumber(int[] nums) {
         Arrays.sort(nums);
         if (nums[0] != 0) {
             return 0;
