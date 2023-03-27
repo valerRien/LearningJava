@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9693f666-6554-427d-9030-2c69bf632639" name="Changes" comment="&quot;daemon&quot; files" />
+    <list default="true" id="9693f666-6554-427d-9030-2c69bf632639" name="Changes" comment="test for kata">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -20,24 +23,43 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NMyjeBLbpbBYqHci1i0fzylLPf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last.edited.regexp&quot;: &quot;wadwda&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.miniprojects.stepik" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.miniprojects.codewars" />
+      <recent name="org.example.miniprojects.leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CountingSheepTest">
-    <configuration name="CountingSheepTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExcelSheetColumnNumbersTest">
+    <configuration name="ExcelSheetColumnNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
@@ -46,13 +68,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.miniprojects.codewars" />
-      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.codewars.CountingSheepTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.codewars.ExcelSheetColumnNumbersTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnexpectedParsingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExcelSheetColumnNumbersTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
@@ -61,19 +83,72 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example.miniprojects.codewars" />
-      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.codewars.UnexpectedParsingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.codewars.ExcelSheetColumnNumbersTest" />
+      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefixTest.oneChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.miniprojects.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.miniprojects.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.leetcode.LongestCommonPrefixTest" />
+      <option name="METHOD_NAME" value="oneChar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefixTest.sampleTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.miniprojects.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.miniprojects.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.leetcode.LongestCommonPrefixTest" />
+      <option name="METHOD_NAME" value="sampleTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefixTest.spacesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.miniprojects.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.miniprojects.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="org.example.miniprojects.leetcode.LongestCommonPrefixTest" />
+      <option name="METHOD_NAME" value="spacesTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CountingSheepTest" />
-        <item itemvalue="JUnit.UnexpectedParsingTest" />
+        <item itemvalue="JUnit.ExcelSheetColumnNumbersTest" />
+        <item itemvalue="JUnit.ExcelSheetColumnNumbersTest.sampleTest" />
+        <item itemvalue="JUnit.LongestCommonPrefixTest.sampleTest3" />
+        <item itemvalue="JUnit.LongestCommonPrefixTest.spacesTest" />
+        <item itemvalue="JUnit.LongestCommonPrefixTest.oneChar" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="test for kata">
       <created>1679473319501</created>
@@ -89,12 +164,194 @@
       <option name="project" value="LOCAL" />
       <updated>1679473344058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).">
+      <created>1679473650715</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473650715</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test for kata">
+      <created>1679473661509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473661509</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;daemon&quot; file">
+      <created>1679473672874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679473672874</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wrong direction on style of coding, but looks funny enough&#10;&#10;Be Concise I - The Ternary Operator&#10;You are given a function describeAge / describe_age that takes a parameter age (which will always be a positive integer) and does the following:&#10;&#10;If the age is 12 or lower, it return &quot;You're a(n) kid&quot;&#10;If the age is anything between 13 and 17 (inclusive), it return &quot;You're a(n) teenager&quot;&#10;If the age is anything between 18 and 64 (inclusive), it return &quot;You're a(n) adult&quot;&#10;If the age is 65 or above, it return &quot;You're a(n) elderly&quot;&#10;Your task is to shorten the code as much as possible. Note that submitting the given code will not work because there is a character limit of 137.&#10;&#10;I'll give you a few hints:&#10;&#10;The title itself is a hint - if you're not sure what to do, always research any terminology in this description that you have not heard of!&#10;Don't you think the whole &quot;You're a(n) &lt;insert_something_here&gt;&quot; is very repetitive? ;) Perhaps we can shorten it?&#10;Write everything in one line, \n and other whitespaces counts.&#10;Whatever you do, do not change what the function does. Good luck :)">
+      <created>1679474885367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679474885367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="wrong direction on style of coding, but looks funny enough&#10;&#10;Be Concise I - The Ternary Operator&#10;You are given a function describeAge / describe_age that takes a parameter age (which will always be a positive integer) and does the following:&#10;&#10;If the age is 12 or lower, it return &quot;You're a(n) kid&quot;&#10;If the age is anything between 13 and 17 (inclusive), it return &quot;You're a(n) teenager&quot;&#10;If the age is anything between 18 and 64 (inclusive), it return &quot;You're a(n) adult&quot;&#10;If the age is 65 or above, it return &quot;You're a(n) elderly&quot;&#10;Your task is to shorten the code as much as possible. Note that submitting the given code will not work because there is a character limit of 137.&#10;&#10;I'll give you a few hints:&#10;&#10;The title itself is a hint - if you're not sure what to do, always research any terminology in this description that you have not heard of!&#10;Don't you think the whole &quot;You're a(n) &lt;insert_something_here&gt;&quot; is very repetitive? ;) Perhaps we can shorten it?&#10;Write everything in one line, \n and other whitespaces counts.&#10;Whatever you do, do not change what the function does. Good luck :)">
+      <created>1679474895608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679474895608</updated>
+    </task>
+    <task id="LOCAL-00008" summary="shortened (xD)">
+      <created>1679474932563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679474932563</updated>
+    </task>
+    <task id="LOCAL-00009" summary="shortened class(xD)">
+      <created>1679474947514</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679474947514</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create a function that accepts a string and a single character, and returns an integer of the count of occurrences the 2nd argument is found in the first one.&#10;&#10;If no occurrences can be found, a count of 0 should be returned.">
+      <created>1679475540655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679475540655</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test for kata">
+      <created>1679475550318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679475550318</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9693f666-6554-427d-9030-2c69bf632639" name="Changes" comment="test for kata" />
+      <created>1679488385778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679488385778</updated>
+      <workItem from="1679488387372" duration="2569000" />
+      <workItem from="1679560041783" duration="14853000" />
+      <workItem from="1679768731403" duration="3203000" />
+      <workItem from="1679855876384" duration="1000" />
+      <workItem from="1679917005174" duration="2883000" />
+      <workItem from="1679919900181" duration="593000" />
+    </task>
+    <task id="LOCAL-00012" summary="Given a string s, find the length of the longest substring without repeating characters. s consists of English letters, digits, symbols and spaces.">
+      <created>1679566121650</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679566121650</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test for solution">
+      <created>1679566182570</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679566182570</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Given a string s, return the longest palindromic substring in s.">
+      <created>1679570681753</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679570681753</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test for solution">
+      <created>1679570696792</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679570696792</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero numbers.">
+      <created>1679768996643</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679768996643</updated>
+    </task>
+    <task id="LOCAL-00017" summary="An infinite number of shelves are arranged one above the other in a staggered fashion.&#10;The cat can jump either one or three shelves at a time: from shelf i to shelf i+1 or i+3 (the cat cannot climb on the shelf directly above its head)">
+      <created>1679769404752</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679769404752</updated>
+    </task>
+    <task id="LOCAL-00018" summary="The police have placed radars that will detect those vehicles that exceed the speed limit on that road. If the driver's speed is 10km/h to 19km/h above the speed limit, the fine will be 100 dollars, if it is exceeded by 20km/h to 29km/h the fine will be 250 dollars and if it is exceeded by more than 30km/h the fine will be 500 dollars.&#10;&#10;You will be provided with the speed limits of those roads with radar as a collection of speedlimits [90,100,110,120,....] and the speed of the driver will be the same on all roads and can never be negative and the amount of the fine will be accumulated example 95km/h.&#10;&#10;Example (Speed=100, Signals=[110,100,80]-&gt; 250)">
+      <created>1679770793076</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679770793076</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid.">
+      <created>1679771897907</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679771897907</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mini refactoring">
+      <created>1679771929525</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679771929525</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Write a function&#10;&#10;titleToNumber(title) or title_to_number(title) or titleToNb title ...&#10;&#10;(depending on the language)&#10;&#10;that given a column title as it appears in an Excel sheet, returns its corresponding column number. All column titles will be uppercase.">
+      <created>1679919289154</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679919289154</updated>
+    </task>
+    <task id="LOCAL-00022" summary="test for kata">
+      <created>1679919311822</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679919311822</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test for kata" />
     <MESSAGE value="&quot;daemon&quot; files" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;daemon&quot; files" />
+    <MESSAGE value="Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present)." />
+    <MESSAGE value="&quot;daemon&quot; file" />
+    <MESSAGE value="wrong direction on style of coding, but looks funny enough&#10;&#10;Be Concise I - The Ternary Operator&#10;You are given a function describeAge / describe_age that takes a parameter age (which will always be a positive integer) and does the following:&#10;&#10;If the age is 12 or lower, it return &quot;You're a(n) kid&quot;&#10;If the age is anything between 13 and 17 (inclusive), it return &quot;You're a(n) teenager&quot;&#10;If the age is anything between 18 and 64 (inclusive), it return &quot;You're a(n) adult&quot;&#10;If the age is 65 or above, it return &quot;You're a(n) elderly&quot;&#10;Your task is to shorten the code as much as possible. Note that submitting the given code will not work because there is a character limit of 137.&#10;&#10;I'll give you a few hints:&#10;&#10;The title itself is a hint - if you're not sure what to do, always research any terminology in this description that you have not heard of!&#10;Don't you think the whole &quot;You're a(n) &lt;insert_something_here&gt;&quot; is very repetitive? ;) Perhaps we can shorten it?&#10;Write everything in one line, \n and other whitespaces counts.&#10;Whatever you do, do not change what the function does. Good luck :)" />
+    <MESSAGE value="shortened (xD)" />
+    <MESSAGE value="shortened class(xD)" />
+    <MESSAGE value="Create a function that accepts a string and a single character, and returns an integer of the count of occurrences the 2nd argument is found in the first one.&#10;&#10;If no occurrences can be found, a count of 0 should be returned." />
+    <MESSAGE value="Given a string s, find the length of the longest substring without repeating characters. s consists of English letters, digits, symbols and spaces." />
+    <MESSAGE value="Given a string s, return the longest palindromic substring in s." />
+    <MESSAGE value="test for solution" />
+    <MESSAGE value="Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero numbers." />
+    <MESSAGE value="An infinite number of shelves are arranged one above the other in a staggered fashion.&#10;The cat can jump either one or three shelves at a time: from shelf i to shelf i+1 or i+3 (the cat cannot climb on the shelf directly above its head)" />
+    <MESSAGE value="The police have placed radars that will detect those vehicles that exceed the speed limit on that road. If the driver's speed is 10km/h to 19km/h above the speed limit, the fine will be 100 dollars, if it is exceeded by 20km/h to 29km/h the fine will be 250 dollars and if it is exceeded by more than 30km/h the fine will be 500 dollars.&#10;&#10;You will be provided with the speed limits of those roads with radar as a collection of speedlimits [90,100,110,120,....] and the speed of the driver will be the same on all roads and can never be negative and the amount of the fine will be accumulated example 95km/h.&#10;&#10;Example (Speed=100, Signals=[110,100,80]-&gt; 250)" />
+    <MESSAGE value="Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid." />
+    <MESSAGE value="mini refactoring" />
+    <MESSAGE value="Write a function&#10;&#10;titleToNumber(title) or title_to_number(title) or titleToNb title ...&#10;&#10;(depending on the language)&#10;&#10;that given a column title as it appears in an Excel sheet, returns its corresponding column number. All column titles will be uppercase." />
+    <MESSAGE value="test for kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="test for kata" />
   </component>
 </project>
