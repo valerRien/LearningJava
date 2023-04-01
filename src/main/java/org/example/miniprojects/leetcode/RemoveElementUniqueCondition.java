@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RemoveElementUniqueCondition {
-    public int removeElement(int[] nums, int val) {
+    public static int removeElement(int[] nums, int val) {
         /*
         ---------if no condition with custom judgement------------------
         nums = Arrays.stream(nums).filter(x -> x != val).toArray();
