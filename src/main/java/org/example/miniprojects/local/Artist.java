@@ -10,10 +10,12 @@ public class Artist {
     public static String mostContrastDays(String N, String aN) throws Exception {
         int days = Integer.parseInt(N);
         String[] contrasts = aN.split(" ");
-        int[] numbers = new int[contrasts.length];
+        int[] numbers = new int[days];
+
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = Integer.parseInt(contrasts[i]);
         }
+
         int day = 0, max = Integer.MIN_VALUE, min = Integer.MAX_VALUE, dayTwo = 0;
 
         for (int i = 0; i < numbers.length; i++) {
