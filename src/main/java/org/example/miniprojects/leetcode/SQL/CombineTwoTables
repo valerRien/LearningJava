@@ -26,4 +26,5 @@ If the address of a personId is not present in the Address table, report null in
 
 Return the result table in any order.
 
+
 SELECT Person.firstName, Person.lastName, Address.city, Address.state FROM Person LEFT JOIN Address ON Person.personId = Address.personId;
