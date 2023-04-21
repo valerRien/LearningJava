@@ -1,4 +1,4 @@
-package org.example.miniprojects.leetcode;
+package org.example.miniprojects.codewars;
 
 import java.util.*;
 

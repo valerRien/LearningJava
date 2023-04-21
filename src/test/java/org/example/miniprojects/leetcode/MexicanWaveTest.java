@@ -1,5 +1,6 @@
 package org.example.miniprojects.leetcode;
 
+import org.example.miniprojects.codewars.MexicanWave;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

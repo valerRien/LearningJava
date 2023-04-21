@@ -1,5 +1,6 @@
 package org.example.miniprojects.leetcode;
 
+import org.example.miniprojects.codewars.CountTheSmileyFaces;
 import org.junit.Test;
 
 import java.util.ArrayList;
