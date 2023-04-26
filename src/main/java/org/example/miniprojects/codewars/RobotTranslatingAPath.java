@@ -6,7 +6,6 @@ public class RobotTranslatingAPath {
             return "Paused";
         }
         StringBuilder result = new StringBuilder();
-        char previousChar = path.charAt(0);
         int rowCharsCounter = 0;
         for (int i = 0; i < path.length(); i++) {
             char currentChar = path.charAt(i);
