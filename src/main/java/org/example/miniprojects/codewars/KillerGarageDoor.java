@@ -2,50 +2,27 @@ package org.example.miniprojects.codewars;
 
 public class KillerGarageDoor {
     public static String run(String events) {
-        char currentEvent;
-        int count = 0;
-        boolean isOpening = false, shouldBeOpened = false, pause = false;
+        int isOpening = 0, direction = 1;
+        boolean moving = false;
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < events.length(); i++) {
-            currentEvent = events.charAt(i);
+            char current = events.charAt(i);
 
-            if (currentEvent == '.') {
-                if (isOpening && count < 5 && !pause &&!shouldBeOpened) {
-                    count++;
-                } else if ((!isOpening || shouldBeOpened) && count > 0 &&!pause) {
-                    count--;
-                }
-                result.append(count);
+            if (current == 'O') {
+                direction *= -1;
+            } else if (current == 'P') {
+                moving = !moving;
             }
-
-            if (currentEvent == 'P') {
-                if (pause == true) {
-                    pause = false;
-                    result.append(count);
-                    continue;
-                }
-                if (count == 5) {
-                    count--;
-                    isOpening = false;
-                } else if (count == 0) {
-                    count++;
-                    isOpening = true;
-                } else {
-                    pause = true;
-                }
-
-                result.append(count);
+            if (moving) {
+                isOpening += direction;
             }
-
-            if (currentEvent == 'O') {
-                shouldBeOpened = true;
-                count--;
-                result.append(count);
+            if (isOpening % 5 == 0) {
+                moving = false;
+                direction = isOpening == 0 ? 1 : -1;
             }
-
+            result.append(isOpening);
         }
-
         return result.toString();
     }
 }
