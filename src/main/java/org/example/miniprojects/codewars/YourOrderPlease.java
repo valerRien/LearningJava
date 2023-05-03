@@ -1,4 +1,4 @@
-package org.example.miniprojects.leetcode;
+package org.example.miniprojects.codewars;
 
 public class YourOrderPlease {
     public static String order(String words) {

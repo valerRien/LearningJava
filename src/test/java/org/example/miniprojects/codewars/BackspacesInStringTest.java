@@ -1,5 +1,6 @@
-package org.example.miniprojects.leetcode;
+package org.example.miniprojects.codewars;
 
+import org.example.miniprojects.codewars.BackspacesInString;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

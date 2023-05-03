@@ -1,4 +1,4 @@
-package org.example.miniprojects.leetcode;
+package org.example.miniprojects.codewars;
 
 public class BackspacesInString {
     public static String cleanString(String s) {
