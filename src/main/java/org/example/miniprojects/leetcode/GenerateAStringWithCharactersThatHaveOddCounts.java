@@ -31,7 +31,7 @@ public class GenerateAStringWithCharactersThatHaveOddCounts {
     private static List<Integer> getCounts(int n) {
         List<Integer> counts = new ArrayList<>();
         int count;
-        while (n != 1) {
+        while (n > 1) {
             count = (int) (Math.random() * n);
             if (count % 2 != 0) {
                 counts.add(count);
@@ -39,7 +39,7 @@ public class GenerateAStringWithCharactersThatHaveOddCounts {
             }
         }
 
-        counts.add(1);
+        if (n != 0) counts.add(1);
         return counts;
     }
 }
