@@ -5,7 +5,7 @@ public class CheckIfTwoStringArraysAreEquivalent {
         return buildString(word1).equals(buildString(word2));
     }
 
-    private static String buildString(String word[]) {
+    private static String buildString(String[] word) {
         StringBuilder wordBuilder = new StringBuilder();
         for (String s : word) {
             wordBuilder.append(s);
