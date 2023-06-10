@@ -1,4 +1,4 @@
-package org.example.miniprojects.leetcode.SmallestEven;
+package org.example.miniprojects.leetcode;
 
 public class SmallestEvenMultiple {
     public static int smallestEvenMultiple(int n) {

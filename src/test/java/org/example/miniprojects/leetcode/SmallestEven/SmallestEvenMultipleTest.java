@@ -1,5 +1,6 @@
 package org.example.miniprojects.leetcode.SmallestEven;
 
+import org.example.miniprojects.leetcode.SmallestEvenMultiple;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
